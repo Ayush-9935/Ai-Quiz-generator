@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+motor
+pymongo
+pydantic
+pydantic-settings
+python-multipart
+PyPDF2
+openai
+python-jose[cryptography]
+passlib[argon2]
+argon2-cffi
+langchain
+langchain-openai
+python-dotenv
+reportlab
+email-validator
