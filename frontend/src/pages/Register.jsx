@@ -17,7 +17,7 @@ const Register = () => {
     setError('');
 
     try {
-      await axios.post('http://localhost:8000/api/auth/signup', {
+      await axios.post('https://ai-quiz-generator-0ilf.onrender.com/api/auth/signup', {
         username,
         email,
         password
