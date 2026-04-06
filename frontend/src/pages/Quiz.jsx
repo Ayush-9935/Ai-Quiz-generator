@@ -19,7 +19,7 @@ const Quiz = () => {
       const fetchQuiz = async () => {
         try {
           const token = localStorage.getItem('token');
-          const response = await axios.get(`http://localhost:8000/api/quiz/${id}`, {
+          const response = await axios.get(`https://ai-quiz-generator-0ilf.onrender.com/api/quiz/${id}`, {
             headers: { 'Authorization': `Bearer ${token}` }
           });
           const rawQuiz = response.data;
