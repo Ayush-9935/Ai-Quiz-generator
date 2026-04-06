@@ -25,7 +25,7 @@ const Dashboard = () => {
     formData.append('difficulty', difficulty);
 
     try {
-      const response = await axios.post('http://localhost:8000/api/quiz/generate', formData, {
+      const response = await axios.post('https://ai-quiz-generator-0ilf.onrender.com/api/quiz/generate', formData, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

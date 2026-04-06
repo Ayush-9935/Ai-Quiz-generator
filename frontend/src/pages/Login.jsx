@@ -20,7 +20,7 @@ const Login = ({ setIsAuthenticated }) => {
       formData.append('username', email); // FastAPI OAuth2 uses 'username'
       formData.append('password', password);
 
-      const response = await axios.post('http://localhost:8000/api/auth/login', formData);
+      const response = await axios.post('https://ai-quiz-generator-0ilf.onrender.com/api/auth/login', formData);
       localStorage.setItem('token', response.data.access_token);
       setIsAuthenticated(true);
       navigate('/');
