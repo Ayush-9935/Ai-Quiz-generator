@@ -10,8 +10,7 @@ An intelligent quiz generation platform that leverages AI to create dynamic quiz
 
 ## 🚀 Features  
 📄 Generate quizzes from PDF documents  
-🤖 AI-powered quiz generation (OpenAI + LangChain)  
-🔐 Secure user authentication (JWT)  
+🤖 AI-powered quiz generation (OpenAI + LangChain)   
 📝 Create, attempt, and manage quizzes  
 📊 Track quiz history and performance  
 📥 Download quiz results as PDF  
