@@ -18,7 +18,7 @@ const Quiz = () => {
     if (!quiz && id) {
       const fetchQuiz = async () => {
         try {
-          const token = localStorage.getItem('token');
+          const token = sessionStorage.getItem('token');
           const response = await axios.get(`https://ai-quiz-generator-0ilf.onrender.com/api/quiz/${id}`, {
             headers: { 'Authorization': `Bearer ${token}` }
           });
@@ -53,7 +53,7 @@ const Quiz = () => {
     });
 
     try {
-      const token = localStorage.getItem('token');
+      const token = sessionStorage.getItem('token');
       await axios.post('http://localhost:8000/api/quiz/submit-result', {
         quiz_id: quiz.id,
         score,

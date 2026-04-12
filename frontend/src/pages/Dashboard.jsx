@@ -17,7 +17,7 @@ const Dashboard = () => {
     setLoading(true);
     setError('');
 
-    const token = localStorage.getItem('token');
+    const token = sessionStorage.getItem('token');
     const formData = new FormData();
     if (file) formData.append('file', file);
     if (textContent) formData.append('text_content', textContent);

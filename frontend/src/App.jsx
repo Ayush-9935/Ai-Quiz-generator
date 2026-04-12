@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('token'));
+  const [isAuthenticated, setIsAuthenticated] = useState(!!sessionStorage.getItem('token'));
 
   useEffect(() => {
     if (isDarkMode) {
