@@ -10,11 +10,11 @@ An intelligent quiz generation platform that leverages AI to create dynamic quiz
 
 ## 🚀 Features  
 📄 Generate quizzes from PDF documents  
-🤖 AI-powered quiz generation (OpenAI + LangChain)   
+🤖 AI-powered quiz generation (Groq AI)  
 📝 Create, attempt, and manage quizzes  
 📊 Track quiz history and performance  
 📥 Download quiz results as PDF  
-🎨 Modern animated UI (React + Framer Motion)  
+🎨 Modern animated UI (ReactJs)
 ⚡ Real-time quiz evaluation  
 
 ---
